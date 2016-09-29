@@ -1,0 +1,31 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "bump": "npm run bump:pre && inv",
+    "bump:pre": "echo Hold it there ace. && npm test",
+    "lint": "eslint lib test && npm run lint:free",
+    "lint:free": "echo Such style. Much class. Wow.",
+    "test": "npm run lint && istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
+    "test:watch": "mocha -w"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.1",
+    "eslint-config-ivantage": "^0.2.0",
+    "in-version": "^0.1.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0"
+  }
+}
