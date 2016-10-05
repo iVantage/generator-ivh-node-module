@@ -49,7 +49,7 @@ module.exports = yeoman.Base.extend({
     cp('_editorconfig', '.editorconfig')
     cp('_eslintrc.js', '.eslintrc.js')
     cp('_gitignore', '.gitignore')
-    cpTpl('package.json', 'package.json')
+    cpTpl('_package.json', 'package.json')
     cp('lib/index.js', 'lib/index.js')
     cp('test/_eslintrc.js', 'test/.eslintrc.js')
     cp('test/mocha.opts', 'test/mocha.opts')

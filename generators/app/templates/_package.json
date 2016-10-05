@@ -19,6 +19,14 @@
     "test:watch": "mocha -w"
   },
   "author": "",
+  "eslintConfig": {
+    "extends": "ivantage",
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    }
+  },
   "license": "UNLICENSED",
   "devDependencies": {
     "chai": "^3.5.0",
