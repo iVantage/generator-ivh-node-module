@@ -1,6 +1,6 @@
 {
   "name": "generator-ivh-node-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "iVantage flavored node modules",
   "homepage": "https://github.com/ivantage/generator-ivh-node-module",
   "author": {
